@@ -1,0 +1,10 @@
+
+//cấu hình biên dịch từ typescript sang javascript.
+
+{
+
+  "extends": "./tsconfig.json",
+
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+
+}
